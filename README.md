@@ -72,23 +72,23 @@ This API evaluates user's conversations and extracts insights for various teams.
   
 **Example Request:**  
 ```json  
-[  
-    {  
-        "ref_conversation_id": "123",  
-        "ref_user_id": "456",  
-        "messages_list": [  
-            {"message": "Hello", "metadata": {"timestamp": "2023-01-01T00:00:00Z"}},  
-            {"message": "Hi there", "metadata": {"timestamp": "2023-01-01T00:01:00Z"}}  
-        ]  
-    },  
-    {  
-        "ref_conversation_id": "789",  
-        "ref_user_id": "101",  
-        "messages_list": [  
-            {"message": "How are you?", "metadata": {"timestamp": "2023-01-02T00:00:00Z"}},  
-            {"message": "I am good", "metadata": {"timestamp": "2023-01-02T00:01:00Z"}}  
-        ]  
-    }  
+[
+  {
+    "messages_list": [
+      {
+        "ref_conversation_id": 98696,
+        "ref_user_id": 782,
+        "transaction_datetime_utc": "2023-10-01T10:15:00Z",
+        "screen_name": "ChattyPenguin",
+        "message": "Hello StoryBot, I\u2019m having a tough time with this app. My fingers aren\u2019t what they used to be. Can you help me?"
+      },
+      {
+        "ref_conversation_id": 98696,
+        "ref_user_id": 1,
+        "transaction_datetime_utc": "2023-10-01T10:20:00Z",
+        "screen_name": "StoryBot",
+        "message": "Hello ChattyPenguin! I\u2019m here to help. Can you tell me what issues you're experiencing with the app?"
+      },
 ]
 ```
 ## Other ideas
