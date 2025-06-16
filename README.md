@@ -68,7 +68,7 @@ This API evaluates user's conversations and extracts insights for various teams.
   
 **Method:** `POST`  
   
-**Request Body:** JSON Array of conversation objects. Each conversation object should contain `ref_conversation_id`, `ref_user_id`, and `messages_list`.  
+**Request Body:** JSON Array of conversation objects. Each conversation object should contain  `messages_list`.  
   
 **Example Request:**  
 ```json  
