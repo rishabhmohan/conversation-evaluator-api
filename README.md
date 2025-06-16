@@ -59,8 +59,8 @@ This API evaluates user's conversations and extracts insights for various teams.
             {"message": "I am good", "metadata": {"timestamp": "2023-01-02T00:01:00Z"}}  
         ]  
     }  
-]  
-
+]
+```
 ## Other ideas
 1. Emotion Detection
 2. Topic/emotion transition over the conversation
@@ -71,6 +71,8 @@ This API evaluates user's conversations and extracts insights for various teams.
 1. Combine Named Entity Recognition with sentiment analysis to understand the user's sentiments towards specific entities (e.g., people, places, topics).
 2. Detect trends in user's emotions or beliefs by analyzing the temporal aspect of the conversations
 3. If users always talk about similar topics, prompt them to different topics to keep them interested/motivated 
+
+
 
 
 
