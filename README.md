@@ -8,26 +8,37 @@ This API evaluates user's conversations and extracts insights for various teams.
 - Analyze conversation sentiment  
 - Perform conversation topic modeling
 
-Steps
-1. Initialization
-Import necessary libraries and modules.
-Create a FastAPI app instance.
-
-2. Endpoint Definition
-Define a POST endpoint /evaluate_conversation.
-
-3. Request Handling
-Accept a JSON body with conversation data.
-Loop Through Conversations
-Extract messages, conversation ID, and user ID.
-Perform feature extraction, sentiment analysis, and topic modeling.
-Format the output and collect metadata.
-Append the processed data to results.
-
-4. Response Handling
-Return the results as a JSON response.
-Handle JSON decoding errors and other exceptions.
+# Evaluate Conversations API  
   
+This API is designed to evaluate user conversations and extract insights for various teams. It performs feature extraction, sentiment analysis, and topic modeling on conversation data.  
+  
+## Steps  
+  
+### 1. Initialization  
+  
+- Import necessary libraries and modules.  
+- Create a FastAPI app instance.  
+  
+### 2. Endpoint Definition  
+  
+- Define a POST endpoint `/evaluate_conversation`.  
+  
+### 3. Request Handling  
+  
+- Accept a JSON body with conversation data.  
+  
+#### Loop Through Conversations  
+  
+- Extract messages, conversation ID, and user ID.  
+- Perform feature extraction, sentiment analysis, and topic modeling.  
+- Format the output and collect metadata.  
+- Append the processed data to `results`.  
+  
+### 4. Response Handling  
+  
+- Return the results as a JSON response.  
+- Handle JSON decoding errors and other exceptions.
+- 
 ## Installation  
   
 1. Clone the repository:  
