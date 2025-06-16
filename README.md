@@ -80,9 +80,9 @@ System design
 Data privacy
 1. Encryption: Ensure data is encrypted, securely stored and anonymized before it is processed adhering to laws and regulations. Conduct compliance checks
 2. Transparency: Obtain user consent for training ML models on customers data
-3. Use statistical indciators to detect bias
+3. Use statistical indicators to detect bias
 
-Explainbility: Ensure that ML models are interpretable and their decisions can be explained in a health context where users need to trust the system
+Explainability: Ensure that ML models are interpretable and their decisions can be explained in a health context where users need to trust the system
 
 Feedback loop: Continuously learn from user interactions to improve the model
 
