@@ -45,7 +45,9 @@ This API evaluates user's conversations and extracts insights for various teams.
     ```  
   
 2. Install the required dependencies:  
-    ```bash  
+    ```bash
+    conda create -n conv python=3.11
+    conda activate conv
     pip install -r requirements.txt  
     ```  
   
