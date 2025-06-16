@@ -8,9 +8,6 @@ This API evaluates user's conversations and extracts insights for various teams.
 - Analyze conversation sentiment  
 - Perform conversation topic modeling
 
-# Evaluate Conversations API  
-  
-This API is designed to evaluate user conversations and extract insights for various teams. It performs feature extraction, sentiment analysis, and topic modeling on conversation data.  
   
 ## Steps  
   
