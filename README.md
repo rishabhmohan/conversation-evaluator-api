@@ -62,10 +62,11 @@ This API evaluates user's conversations and extracts insights for various teams.
 ]
 ```
 ## Other ideas
-1. Emotion Detection
-2. Topic/emotion transition over the conversation
+1. Emotion Detection: Emotion frequency and transition over the conversation
+2. Identify and measure the presence of topics related to resilience e.g. coping strategies, personal growth
 3. Prompt-Intent classification
 4. Using contextual Sentence Transformers embeddings for LDA; Use BERTopic
+5. Engagement metrics (from discussions and activities json files)
 
 ## Evolution over time
 1. Combine Named Entity Recognition with sentiment analysis to understand the user's sentiments towards specific entities (e.g., people, places, topics).
