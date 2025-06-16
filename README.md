@@ -70,7 +70,21 @@ This API evaluates user's conversations and extracts insights for various teams.
 ## Evolution over time
 1. Combine Named Entity Recognition with sentiment analysis to understand the user's sentiments towards specific entities (e.g., people, places, topics).
 2. Detect trends in user's emotions or beliefs by analyzing the temporal aspect of the conversations
-3. If users always talk about similar topics, prompt them to different topics to keep them interested/motivated 
+3. Personalization: If users always talk about similar topics, prompt them to different topics to keep them interested/motivated or personalized solutions for their health nd resilience
+
+## Challenges and Best practices
+System design
+1. Scalabilty - For batch processing, we can use AWS Batch for comprehensive analysis and reporting. if real-time analysis, we can use autoscaling/serverless or API gateway
+2. Latency - use caching if possible. Optimize ML models for inference
+
+Data privacy
+1. Encryption: Ensure data is encrypted, securely stored and anonymized before it is processed adhering to laws and regulations. Conduct compliance checks
+2. Transparency: Obtain user consent for training ML models on customers data
+3. Use statistical indciators to detect bias
+
+Explainbility: Ensure that ML models are interpretable and their decisions can be explained in a health context where users need to trust the system
+
+Feedback loop: Continuously learn from user interactions to improve the model
 
 
 
